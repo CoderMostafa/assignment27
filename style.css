@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background: rgb(11,191,154);
+    margin: auto;
+    padding: 15px 0;
+    line-height: 40px;
+}
+.header-logo{
+    width: 30%;
+    float: left;
+}
+.header-logo h1 {
+    margin-left: 60px;
+    color: #fffffff2;
+    font-size: 25px;
+}
+.header-menu{
+    width: 70%;
+    float: right;
+}
+.header-menu ul{
+    text-align: right;
+    list-style: none;
+    margin-right: 42px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    padding: 0px 11px;
+    color: rgb(255 255 255 / 75%);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.banner{
+    background: url(https://i.ibb.co/0MJSQNq/header-bg01.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+}
+.banner h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.banner p {
+    color: rgb(255 255 255 / 56%);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.banner button {
+    margin-top: 25px;
+    padding: 10px 25px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: 2px solid rgb(255 255 255 / 49%);
+    font-weight: bold;
+    border-radius: 3px;
+}
+.about{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.about h1{
+    font-size: 30px;
+    color: #000000b0;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 12px;
+    color: #00000085;
+    font-family: sans-serif;
+}
+.service{
+    margin-top: 40px;
+    height: 250px;
+    border-bottom: 2px solid rgb(28, 201, 198);
+}
+.section1{
+    width: 22.5%;
+    float: left;
+    margin: auto;
+    display: block;
+    margin-left: 2%;
+}
+.section1 h1 {
+    font-size: 20px;
+    color: #000000a6;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.section1 p{
+    color: #000000ab;
+    font-family: sans-serif;
+    line-height: 1.3rem;
+    margin-top: 8px;
+}
+.section1 span{
+    font-size: 30px;
+    color:rgb(11,186,155);
+}
+.about-us{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.about1{
+    width: 50%;
+    float: left;
+}
+.about1 img{
+    width: 450px;
+}
+.about2{
+    width: 50%;
+    float: right;
+}
+.div1 h1{
+    font-size: 20px;
+    color: #0000008c;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.div1 p{
+    font-size: 13px;
+    color: #00000099;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.contact{
+    height: 300px;
+    background: #e9e8e78c;
+    margin: auto;
+}
+.div3{
+    float: left;
+    width: 33.3%;
+    margin-top: 50px;
+}
+.div3 span{
+    color: #30bcbc;
+    margin-bottom: 13px;
+}
+.div3 p{
+    margin-top: 15px;
+    color: #00000080;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+}
+.div3 h6 {
+    color: #00000080;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.contact h1{
+    padding-top: 60px;
+    color: #000000a6;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.contact p{
+    color: #000000a6;
+    font-family: sans-serif;
+}
+.social{
+    background: #30bcbc;
+    margin: auto;
+}
+.social ul{
+    list-style-type: none;
+    text-align: center;
+}
+.social ul li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 11px 17px;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.667);
+    padding: 10px 0;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.513);
+    font-family: sans-serif;
+}

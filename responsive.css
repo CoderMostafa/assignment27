@@ -1,0 +1,161 @@
+@media(max-width:795px){
+    .header-logo h1 {
+        margin-left: 24px;
+        font-size: 18px;
+    }
+}
+@media(max-width:667px){
+    .header-menu ul li a {
+        padding: 0px 6px;
+        font-size: 11px;
+    }
+}
+@media(max-width:554px){
+    .header-logo h1 {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+    .header-menu ul li a {
+        padding: 0px 3px;
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:472px){
+    .header-logo h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .header-logo h1 {
+    font-size: 12px;
+    text-align: center;
+}
+.header-logo {
+    width: 100%;
+}
+.header-menu ul {
+    text-align: center;
+    margin-right: 0;
+   
+}
+.header-menu {
+    width: 100%;
+}
+.header {
+    background: rgb(11 133 191);
+    padding: 0px 0;
+    line-height: 26px;
+}
+.banner{
+    padding: 50px;
+    box-sizing: border-box;
+}
+.banner h1 {
+    font-size: 13px;
+}
+.banner p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.banner button {
+    margin-top: 8px;
+    padding: 5px 8px;
+    background: red;
+    color: rgb(107 10 10);
+    border: 1px solid rgb(255 255 255 / 49%);
+    font-size: 7px;
+}
+.about{
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.service{
+    margin-top: 20px;
+    border-bottom: none;
+}
+.section1 h1 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.section1 p {
+    margin-top: 0px;
+    font-size: 10px;
+}
+.section1 span {
+    font-size: 15px;
+    color: rgb(210 72 19);
+}
+.section1 {
+    width: 100%;
+}
+.about h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.about p {
+    font-size: 9px;
+    color: #664ec485;
+}
+.header ul li a{
+    font-size: 8px;
+}
+.about-us {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.about1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.about2 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.div1 h1 {
+    font-size: 14px;
+    color: #d21414d9;
+    margin-bottom: 3px;
+}
+.div1 p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.contact h1 {
+    padding-top: 3px;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+.contact p {
+    color: #be1d1da6;
+    font-size: 11px;
+}
+.div3 {
+    width: 100%;
+    margin-top: 20px;
+}
+.div3 h6 {
+    color: #263a99e0;
+    font-size: 9px;
+    font-weight: 600;
+}
+.social {
+    background: #3a3372;
+}
+.social ul li {
+    color: #14e1b1;
+    font-size: 13px;
+    padding: 5px 14px;
+    box-sizing: border-box;
+}
+.footer {
+    background: rgb(139 159 216 / 67%);
+    padding: 5px 0;
+}
+.footer p {
+    color: rgb(15 14 14 / 65%);
+    font-size: 12px;
+}
+}
